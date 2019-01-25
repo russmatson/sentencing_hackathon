@@ -1,0 +1,501 @@
+id,sex,race,age,marital_status,employment_status,salary,zipcode,number_of_kids,volunteer_hours_per_week,prior_crimes,type_of_crimes,amount_of_damage,number_of_times,task
+0,Female,Other,25-35,Divorced,Unemployed,0,55555,3,0,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+1,Female,Caucasian,Less than 25,Divorced,Unemployed,0,22222,0,0,2,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+2,Male,African-American,35-45,Married,Unemployed,0,0,2,1,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+3,Female,Other,25-35,Divorced,Part-time employed,21488,88888,1,0,0,LEAVE_BIKE_DROPOFF_ZONE,30,2,Sentencing
+4,Male,Asian,More than 45,Single,Unemployed,0,11111,0,0,2,LEAVE_BIKE_DROPOFF_ZONE,15,1,Sentencing
+5,Male,Hispanic,More than 45,Divorced,Unemployed,0,33333,3,0,0,LEAVE_BIKE_RIDING_ZONE,30,1,Sentencing
+6,Male,Hispanic,More than 45,Single,Student,0,55555,0,1,3,VANDALISM_OTHER,500,2,Sentencing
+7,Female,Caucasian,35-45,Single,Not looking,0,33333,2,0,0,LEAVE_BIKE_DROPOFF_ZONE,15,1,Sentencing
+8,Male,Hispanic,More than 45,Single,Employed,70234,77777,0,0,0,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+9,Female,Asian,Less than 25,Single,Part-time employed,24004,44444,0,0,0,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+10,Female,Native American,Less than 25,Divorced,Unemployed,0,44444,1,10,3,LEAVE_BIKE_RIDING_ZONE,30,1,Sentencing
+11,Female,Native American,25-35,Divorced,Student,0,66666,0,0,2,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+12,Male,Other,Less than 25,Divorced,Part-time employed,17002,88888,2,2,0,VANDALISM_OTHER,500,2,Sentencing
+13,Female,Asian,35-45,Single,Employed,98406,55555,0,0,0,LEAVE_BIKE_RIDING_ZONE,30,1,Sentencing
+14,Female,Native American,More than 45,Married,Employed,102127,88888,3,3,1,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+15,Male,Hispanic,More than 45,Divorced,Not looking,0,44444,3,0,0,LEAVE_BIKE_RIDING_ZONE,30,1,Sentencing
+16,Female,Asian,25-35,Married,Part-time employed,28231,44444,0,0,0,VANDALISM_LOCK_BROKEN,300,3,Sentencing
+17,Male,Caucasian,Less than 25,Divorced,Employed,54614,66666,0,0,3,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+18,Male,African-American,More than 45,Single,Part-time employed,18376,33333,3,0,0,BIKE_STOLEN,1200,2,Sentencing
+19,Female,Native American,Less than 25,Married,Not looking,0,55555,1,1,3,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+20,Female,African-American,35-45,Divorced,Not looking,0,11111,3,1,0,VANDALISM_OTHER,250,1,Sentencing
+21,Male,Caucasian,25-35,Single,Student,0,44444,3,1,1,VANDALISM_OTHER,1000,4,Sentencing
+22,Female,Caucasian,Less than 25,Single,Not looking,0,33333,1,0,2,VANDALISM_LOCK_BROKEN,400,4,Sentencing
+23,Male,Caucasian,Less than 25,Divorced,Student,0,44444,3,1,0,VANDALISM_OTHER,500,2,Sentencing
+24,Male,African-American,More than 45,Divorced,Unemployed,0,0,0,1,0,LEAVE_BIKE_DROPOFF_ZONE,15,1,Sentencing
+25,Male,Other,Less than 25,Single,Student,0,77777,0,10,0,BIKE_STOLEN,600,1,Sentencing
+26,Male,Other,25-35,Single,Unemployed,0,55555,0,2,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+27,Male,Native American,25-35,Divorced,Student,0,66666,3,3,0,BIKE_STOLEN,600,1,Sentencing
+28,Male,Caucasian,Less than 25,Married,Not looking,0,33333,0,1,0,LEAVE_BIKE_DROPOFF_ZONE,30,2,Sentencing
+29,Male,Native American,25-35,Married,Not looking,0,55555,3,1,1,VANDALISM_LOCK_BROKEN,300,3,Sentencing
+30,Female,Native American,More than 45,Married,Part-time employed,19677,77777,0,2,3,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+31,Female,Caucasian,35-45,Single,Part-time employed,28628,55555,3,1,2,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+32,Female,Other,25-35,Single,Part-time employed,21664,88888,3,0,2,BIKE_STOLEN,3000,5,Sentencing
+33,Male,Asian,More than 45,Married,Employed,87260,55555,1,0,0,BIKE_STOLEN,600,1,Sentencing
+34,Male,Caucasian,25-35,Married,Employed,34004,66666,0,1,0,VANDALISM_OTHER,750,3,Sentencing
+35,Male,Asian,More than 45,Single,Not looking,0,22222,2,0,3,LEAVE_BIKE_RIDING_ZONE,30,1,Sentencing
+36,Male,African-American,Less than 25,Married,Part-time employed,23149,33333,1,1,0,BIKE_STOLEN,600,1,Sentencing
+37,Female,Asian,Less than 25,Divorced,Unemployed,0,11111,0,2,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+38,Male,Asian,More than 45,Single,Student,0,33333,2,10,3,VANDALISM_LOCK_BROKEN,200,2,Sentencing
+39,Female,Native American,More than 45,Married,Employed,91610,88888,0,0,1,BIKE_STOLEN,2400,4,Sentencing
+40,Male,Native American,More than 45,Married,Employed,50726,88888,2,0,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+41,Female,Other,Less than 25,Single,Unemployed,0,55555,2,2,0,VANDALISM_LOCK_BROKEN,100,1,Sentencing
+42,Male,Hispanic,Less than 25,Single,Employed,87471,77777,2,2,0,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+43,Male,Asian,25-35,Single,Employed,99022,55555,1,2,1,VANDALISM_LOCK_BROKEN,500,5,Sentencing
+44,Male,Asian,35-45,Single,Not looking,0,22222,3,1,0,VANDALISM_LOCK_BROKEN,100,1,Sentencing
+45,Female,Hispanic,More than 45,Married,Unemployed,0,33333,2,0,1,LEAVE_BIKE_DROPOFF_ZONE,60,4,Sentencing
+46,Female,Other,Less than 25,Single,Employed,87108,99999,2,1,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+47,Male,Hispanic,Less than 25,Married,Student,0,55555,2,0,0,BIKE_STOLEN,3000,5,Sentencing
+48,Male,Asian,Less than 25,Married,Student,0,33333,2,1,0,VANDALISM_LOCK_BROKEN,200,2,Sentencing
+49,Female,Caucasian,35-45,Single,Employed,60304,66666,2,0,1,VANDALISM_OTHER,500,2,Sentencing
+50,Female,Native American,25-35,Divorced,Part-time employed,15956,77777,1,10,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+51,Male,Other,Less than 25,Divorced,Not looking,0,66666,0,3,3,VANDALISM_LOCK_BROKEN,100,1,Sentencing
+52,Male,African-American,25-35,Married,Part-time employed,24809,33333,2,1,1,VANDALISM_OTHER,250,1,Sentencing
+53,Male,Asian,More than 45,Married,Unemployed,0,11111,3,10,0,BIKE_STOLEN,1200,2,Sentencing
+54,Female,Hispanic,25-35,Single,Not looking,0,44444,0,2,0,BIKE_STOLEN,1200,2,Sentencing
+55,Female,Caucasian,25-35,Single,Unemployed,0,22222,2,10,0,LEAVE_BIKE_RIDING_ZONE,30,1,Sentencing
+56,Female,Native American,Less than 25,Married,Student,0,66666,2,2,0,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+57,Male,Other,35-45,Married,Student,0,77777,1,2,0,BIKE_STOLEN,2400,4,Sentencing
+58,Female,Asian,Less than 25,Married,Unemployed,0,11111,0,1,0,BIKE_STOLEN,2400,4,Sentencing
+59,Male,Asian,Less than 25,Single,Part-time employed,23053,44444,3,0,0,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+60,Female,Hispanic,More than 45,Married,Student,0,55555,1,3,0,VANDALISM_LOCK_BROKEN,100,1,Sentencing
+61,Male,African-American,Less than 25,Single,Not looking,0,11111,1,2,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+62,Male,Caucasian,More than 45,Single,Not looking,0,33333,3,2,0,VANDALISM_LOCK_BROKEN,100,1,Sentencing
+63,Male,Hispanic,35-45,Divorced,Student,0,55555,1,3,0,LEAVE_BIKE_RIDING_ZONE,60,2,Sentencing
+64,Female,Caucasian,25-35,Married,Part-time employed,27533,55555,3,1,0,BIKE_STOLEN,600,1,Sentencing
+65,Male,Native American,25-35,Single,Not looking,0,55555,2,3,0,BIKE_STOLEN,1200,2,Sentencing
+66,Female,Asian,35-45,Single,Student,0,33333,1,1,0,LEAVE_BIKE_RIDING_ZONE,30,1,Sentencing
+67,Male,Native American,25-35,Single,Unemployed,0,44444,2,0,0,LEAVE_BIKE_DROPOFF_ZONE,15,1,Sentencing
+68,Female,Hispanic,25-35,Divorced,Not looking,0,44444,2,1,2,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+69,Male,African-American,25-35,Single,Employed,35253,44444,1,0,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+70,Male,African-American,Less than 25,Single,Employed,57498,44444,2,0,1,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+71,Male,Other,More than 45,Divorced,Unemployed,0,55555,2,0,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+72,Female,African-American,35-45,Married,Student,0,22222,0,1,3,LEAVE_BIKE_DROPOFF_ZONE,45,3,Sentencing
+73,Female,Asian,35-45,Married,Not looking,0,22222,2,0,3,LEAVE_BIKE_RIDING_ZONE,30,1,Sentencing
+74,Male,Other,35-45,Married,Part-time employed,23839,88888,0,2,3,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+75,Female,Asian,More than 45,Married,Student,0,33333,0,0,1,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+76,Female,Other,Less than 25,Married,Employed,45530,99999,3,1,0,VANDALISM_LOCK_BROKEN,300,3,Sentencing
+77,Female,African-American,Less than 25,Married,Not looking,0,11111,3,1,1,LEAVE_BIKE_RIDING_ZONE,30,1,Sentencing
+78,Male,Asian,35-45,Divorced,Part-time employed,25688,44444,2,1,1,LEAVE_BIKE_RIDING_ZONE,60,2,Sentencing
+79,Male,African-American,More than 45,Married,Employed,50112,44444,3,0,0,LEAVE_BIKE_RIDING_ZONE,60,2,Sentencing
+80,Male,Other,Less than 25,Married,Unemployed,0,55555,3,0,2,BIKE_STOLEN,1800,3,Sentencing
+81,Female,Other,More than 45,Married,Unemployed,0,55555,2,0,0,LEAVE_BIKE_RIDING_ZONE,60,2,Sentencing
+82,Male,Asian,Less than 25,Married,Employed,69550,55555,1,2,0,VANDALISM_LOCK_BROKEN,500,5,Sentencing
+83,Female,Hispanic,25-35,Married,Part-time employed,23255,66666,1,2,1,LEAVE_BIKE_RIDING_ZONE,30,1,Sentencing
+84,Female,Asian,More than 45,Married,Employed,47402,55555,2,0,0,VANDALISM_LOCK_BROKEN,100,1,Sentencing
+85,Female,Hispanic,35-45,Single,Employed,72547,77777,1,0,0,VANDALISM_LOCK_BROKEN,300,3,Sentencing
+86,Male,Native American,35-45,Single,Employed,86530,88888,1,1,0,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+87,Male,African-American,35-45,Single,Part-time employed,27188,33333,2,1,0,BIKE_STOLEN,2400,4,Sentencing
+88,Male,Native American,25-35,Divorced,Part-time employed,17675,77777,3,2,1,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+89,Female,Caucasian,25-35,Married,Unemployed,0,22222,0,10,0,VANDALISM_LOCK_BROKEN,100,1,Sentencing
+90,Male,African-American,Less than 25,Single,Employed,78899,44444,2,0,0,BIKE_STOLEN,600,1,Sentencing
+91,Male,Asian,More than 45,Divorced,Employed,104576,55555,1,0,3,BIKE_STOLEN,2400,4,Sentencing
+92,Male,Caucasian,35-45,Divorced,Student,0,44444,1,0,1,LEAVE_BIKE_DROPOFF_ZONE,60,4,Sentencing
+93,Male,Other,More than 45,Single,Unemployed,0,55555,2,0,2,LEAVE_BIKE_RIDING_ZONE,90,3,Sentencing
+94,Female,African-American,Less than 25,Single,Employed,48279,44444,0,0,0,LEAVE_BIKE_RIDING_ZONE,30,1,Sentencing
+95,Female,Caucasian,Less than 25,Divorced,Student,0,44444,3,0,0,VANDALISM_LOCK_BROKEN,200,2,Sentencing
+96,Female,Caucasian,Less than 25,Married,Student,0,44444,0,1,0,LEAVE_BIKE_DROPOFF_ZONE,75,5,Sentencing
+97,Male,Caucasian,35-45,Divorced,Employed,109144,66666,0,0,0,BIKE_STOLEN,600,1,Sentencing
+98,Female,Other,Less than 25,Single,Not looking,0,66666,3,3,0,LEAVE_BIKE_RIDING_ZONE,90,3,Sentencing
+99,Female,Other,Less than 25,Divorced,Employed,37194,99999,3,3,1,VANDALISM_LOCK_BROKEN,200,2,Sentencing
+100,Female,Other,Less than 25,Divorced,Employed,108153,99999,1,0,0,VANDALISM_OTHER,750,3,Sentencing
+101,Male,Hispanic,Less than 25,Divorced,Employed,79937,77777,0,0,2,VANDALISM_OTHER,750,3,Sentencing
+102,Male,Asian,More than 45,Married,Student,0,33333,1,2,1,VANDALISM_OTHER,750,3,Sentencing
+103,Female,Asian,25-35,Married,Student,0,33333,0,0,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+104,Male,Asian,Less than 25,Married,Part-time employed,23986,44444,2,1,0,VANDALISM_OTHER,750,3,Sentencing
+105,Male,Native American,More than 45,Married,Part-time employed,16594,77777,3,0,0,VANDALISM_LOCK_BROKEN,200,2,Sentencing
+106,Female,African-American,25-35,Married,Employed,96858,44444,2,0,1,LEAVE_BIKE_RIDING_ZONE,120,4,Sentencing
+107,Female,African-American,25-35,Single,Part-time employed,25733,33333,1,3,0,LEAVE_BIKE_DROPOFF_ZONE,15,1,Sentencing
+108,Female,Caucasian,25-35,Divorced,Student,0,44444,2,0,1,LEAVE_BIKE_DROPOFF_ZONE,30,2,Sentencing
+109,Male,Other,More than 45,Married,Student,0,77777,0,2,1,BIKE_STOLEN,600,1,Sentencing
+110,Male,Asian,25-35,Single,Unemployed,0,11111,0,2,3,BIKE_STOLEN,1200,2,Sentencing
+111,Male,Native American,35-45,Divorced,Unemployed,0,44444,1,0,0,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+112,Male,Hispanic,25-35,Single,Part-time employed,15362,66666,2,0,0,VANDALISM_OTHER,250,1,Sentencing
+113,Female,Native American,More than 45,Divorced,Part-time employed,22678,77777,1,1,1,BIKE_STOLEN,2400,4,Sentencing
+114,Female,Caucasian,35-45,Married,Not looking,0,33333,1,2,3,BIKE_STOLEN,600,1,Sentencing
+115,Female,Native American,35-45,Married,Employed,77968,88888,2,1,1,VANDALISM_LOCK_BROKEN,300,3,Sentencing
+116,Female,Caucasian,Less than 25,Married,Unemployed,0,22222,1,1,1,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+117,Female,Hispanic,Less than 25,Married,Part-time employed,20652,66666,1,0,0,BIKE_STOLEN,1800,3,Sentencing
+118,Male,Other,Less than 25,Married,Not looking,0,66666,3,2,0,VANDALISM_LOCK_BROKEN,100,1,Sentencing
+119,Female,Asian,25-35,Single,Employed,82188,55555,3,2,2,VANDALISM_OTHER,750,3,Sentencing
+120,Male,Asian,More than 45,Married,Employed,53908,55555,3,1,0,VANDALISM_OTHER,250,1,Sentencing
+121,Male,Caucasian,35-45,Divorced,Not looking,0,33333,0,1,0,BIKE_STOLEN,3000,5,Sentencing
+122,Male,Asian,Less than 25,Divorced,Unemployed,0,11111,3,2,3,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+123,Male,Asian,More than 45,Single,Part-time employed,27519,44444,2,3,2,BIKE_STOLEN,1200,2,Sentencing
+124,Male,Native American,More than 45,Divorced,Student,0,66666,2,10,0,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+125,Male,Hispanic,More than 45,Divorced,Student,0,55555,3,2,0,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+126,Female,Other,25-35,Divorced,Unemployed,0,55555,2,1,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+127,Male,Hispanic,More than 45,Divorced,Employed,54262,77777,3,1,0,LEAVE_BIKE_DROPOFF_ZONE,45,3,Sentencing
+128,Female,Asian,35-45,Single,Not looking,0,22222,1,1,0,LEAVE_BIKE_DROPOFF_ZONE,15,1,Sentencing
+129,Female,Other,Less than 25,Single,Part-time employed,24648,88888,3,2,0,LEAVE_BIKE_DROPOFF_ZONE,45,3,Sentencing
+130,Male,Asian,More than 45,Married,Unemployed,0,11111,1,0,0,VANDALISM_OTHER,500,2,Sentencing
+131,Male,African-American,More than 45,Single,Unemployed,0,0,3,0,1,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+132,Female,Caucasian,Less than 25,Divorced,Part-time employed,18655,55555,3,0,0,LEAVE_BIKE_RIDING_ZONE,90,3,Sentencing
+133,Male,Caucasian,35-45,Divorced,Employed,66913,66666,0,0,0,VANDALISM_OTHER,750,3,Sentencing
+134,Female,Other,25-35,Married,Not looking,0,66666,3,1,3,BIKE_STOLEN,1800,3,Sentencing
+135,Female,Other,25-35,Divorced,Student,0,77777,3,10,2,BIKE_STOLEN,600,1,Sentencing
+136,Female,Native American,More than 45,Divorced,Part-time employed,23418,77777,0,0,1,VANDALISM_LOCK_BROKEN,500,5,Sentencing
+137,Female,Caucasian,More than 45,Single,Employed,54808,66666,0,1,0,BIKE_STOLEN,600,1,Sentencing
+138,Female,Other,More than 45,Divorced,Employed,100223,99999,0,0,0,BIKE_STOLEN,600,1,Sentencing
+139,Male,Hispanic,More than 45,Divorced,Part-time employed,24344,66666,1,2,1,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+140,Male,African-American,25-35,Married,Unemployed,0,0,2,1,1,LEAVE_BIKE_RIDING_ZONE,120,4,Sentencing
+141,Male,African-American,More than 45,Single,Student,0,22222,3,3,0,BIKE_STOLEN,600,1,Sentencing
+142,Female,Other,25-35,Divorced,Employed,105226,99999,2,0,2,VANDALISM_LOCK_BROKEN,200,2,Sentencing
+143,Female,Hispanic,25-35,Married,Employed,109670,77777,2,1,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+144,Male,Native American,25-35,Divorced,Not looking,0,55555,0,2,1,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+145,Male,Hispanic,25-35,Single,Not looking,0,44444,3,0,0,VANDALISM_LOCK_BROKEN,200,2,Sentencing
+146,Female,African-American,35-45,Married,Student,0,22222,0,0,0,BIKE_STOLEN,600,1,Sentencing
+147,Male,Hispanic,More than 45,Divorced,Part-time employed,15063,66666,0,0,1,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+148,Female,Hispanic,More than 45,Single,Not looking,0,44444,0,1,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+149,Male,African-American,Less than 25,Married,Not looking,0,11111,3,0,1,VANDALISM_LOCK_BROKEN,200,2,Sentencing
+150,Female,African-American,More than 45,Married,Part-time employed,24128,33333,0,0,3,VANDALISM_OTHER,750,3,Sentencing
+151,Male,African-American,More than 45,Single,Part-time employed,18515,33333,1,0,1,VANDALISM_OTHER,500,2,Sentencing
+152,Male,Native American,More than 45,Single,Student,0,66666,0,2,1,VANDALISM_OTHER,1000,4,Sentencing
+153,Female,Caucasian,35-45,Married,Not looking,0,33333,0,0,2,LEAVE_BIKE_DROPOFF_ZONE,30,2,Sentencing
+154,Male,Hispanic,Less than 25,Married,Student,0,55555,1,0,1,BIKE_STOLEN,600,1,Sentencing
+155,Male,Caucasian,25-35,Divorced,Part-time employed,27610,55555,1,0,1,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+156,Male,Caucasian,25-35,Single,Student,0,44444,2,2,0,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+157,Female,Asian,More than 45,Single,Employed,103797,55555,3,10,1,VANDALISM_LOCK_BROKEN,200,2,Sentencing
+158,Female,African-American,Less than 25,Divorced,Student,0,22222,1,10,0,LEAVE_BIKE_DROPOFF_ZONE,30,2,Sentencing
+159,Female,Native American,25-35,Single,Student,0,66666,1,0,3,BIKE_STOLEN,2400,4,Sentencing
+160,Male,Caucasian,More than 45,Married,Not looking,0,33333,0,0,2,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+161,Male,Caucasian,Less than 25,Married,Unemployed,0,22222,3,1,3,BIKE_STOLEN,600,1,Sentencing
+162,Male,Caucasian,Less than 25,Married,Employed,97590,66666,1,0,0,VANDALISM_OTHER,750,3,Sentencing
+163,Male,Other,35-45,Single,Part-time employed,20488,88888,0,1,3,LEAVE_BIKE_RIDING_ZONE,30,1,Sentencing
+164,Male,Asian,35-45,Married,Student,0,33333,0,2,3,LEAVE_BIKE_DROPOFF_ZONE,30,2,Sentencing
+165,Male,Asian,More than 45,Married,Not looking,0,22222,3,0,1,VANDALISM_LOCK_BROKEN,400,4,Sentencing
+166,Male,Hispanic,More than 45,Divorced,Employed,101049,77777,3,0,0,BIKE_STOLEN,600,1,Sentencing
+167,Male,Hispanic,More than 45,Married,Unemployed,0,33333,0,2,1,BIKE_STOLEN,600,1,Sentencing
+168,Male,Caucasian,Less than 25,Single,Unemployed,0,22222,0,0,0,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+169,Male,Other,Less than 25,Divorced,Student,0,77777,1,0,1,LEAVE_BIKE_RIDING_ZONE,90,3,Sentencing
+170,Male,Hispanic,More than 45,Married,Unemployed,0,33333,1,1,1,VANDALISM_LOCK_BROKEN,100,1,Sentencing
+171,Male,Other,35-45,Single,Employed,40391,99999,2,0,0,VANDALISM_LOCK_BROKEN,100,1,Sentencing
+172,Male,Hispanic,Less than 25,Married,Part-time employed,29685,66666,3,2,0,BIKE_STOLEN,3000,5,Sentencing
+173,Male,Other,35-45,Single,Employed,85639,99999,2,10,0,VANDALISM_LOCK_BROKEN,300,3,Sentencing
+174,Male,African-American,35-45,Married,Employed,57975,44444,1,0,0,BIKE_STOLEN,3000,5,Sentencing
+175,Female,Caucasian,35-45,Single,Part-time employed,24016,55555,2,1,1,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+176,Female,African-American,Less than 25,Divorced,Student,0,22222,0,3,0,BIKE_STOLEN,600,1,Sentencing
+177,Female,Native American,25-35,Divorced,Not looking,0,55555,3,0,1,VANDALISM_OTHER,250,1,Sentencing
+178,Male,Asian,35-45,Divorced,Employed,33822,55555,1,1,1,VANDALISM_LOCK_BROKEN,200,2,Sentencing
+179,Female,Caucasian,More than 45,Married,Unemployed,0,22222,2,0,2,LEAVE_BIKE_RIDING_ZONE,90,3,Sentencing
+180,Female,Hispanic,More than 45,Divorced,Part-time employed,22283,66666,1,0,1,VANDALISM_OTHER,250,1,Sentencing
+181,Male,Hispanic,Less than 25,Single,Student,0,55555,2,0,0,LEAVE_BIKE_RIDING_ZONE,30,1,Sentencing
+182,Female,Hispanic,More than 45,Married,Part-time employed,16632,66666,1,2,2,VANDALISM_LOCK_BROKEN,300,3,Sentencing
+183,Male,African-American,Less than 25,Divorced,Student,0,22222,2,1,1,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+184,Male,African-American,Less than 25,Divorced,Part-time employed,19394,33333,3,0,1,VANDALISM_OTHER,500,2,Sentencing
+185,Male,Native American,More than 45,Divorced,Employed,80591,88888,2,3,0,VANDALISM_OTHER,750,3,Sentencing
+186,Male,Caucasian,25-35,Divorced,Part-time employed,19452,55555,1,2,2,BIKE_STOLEN,600,1,Sentencing
+187,Male,Asian,More than 45,Divorced,Unemployed,0,11111,2,0,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+188,Male,Caucasian,25-35,Divorced,Student,0,44444,0,3,0,LEAVE_BIKE_RIDING_ZONE,30,1,Sentencing
+189,Male,Asian,More than 45,Married,Employed,77563,55555,3,3,1,LEAVE_BIKE_RIDING_ZONE,90,3,Sentencing
+190,Male,Native American,25-35,Single,Part-time employed,19586,77777,0,10,1,LEAVE_BIKE_RIDING_ZONE,90,3,Sentencing
+191,Female,Native American,25-35,Divorced,Student,0,66666,0,1,1,LEAVE_BIKE_DROPOFF_ZONE,15,1,Sentencing
+192,Male,Hispanic,Less than 25,Single,Not looking,0,44444,3,0,3,VANDALISM_LOCK_BROKEN,400,4,Sentencing
+193,Male,African-American,Less than 25,Married,Employed,88589,44444,0,2,1,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+194,Male,Native American,Less than 25,Divorced,Unemployed,0,44444,0,1,3,LEAVE_BIKE_DROPOFF_ZONE,45,3,Sentencing
+195,Male,Asian,Less than 25,Married,Employed,48307,55555,0,10,1,LEAVE_BIKE_RIDING_ZONE,60,2,Sentencing
+196,Male,Caucasian,Less than 25,Single,Unemployed,0,22222,2,2,0,VANDALISM_OTHER,500,2,Sentencing
+197,Female,African-American,Less than 25,Divorced,Unemployed,0,0,3,1,3,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+198,Male,Caucasian,35-45,Divorced,Student,0,44444,3,1,2,LEAVE_BIKE_RIDING_ZONE,90,3,Sentencing
+199,Male,Other,25-35,Divorced,Part-time employed,19735,88888,3,1,0,VANDALISM_OTHER,250,1,Sentencing
+200,Male,Native American,35-45,Married,Not looking,0,55555,3,1,0,LEAVE_BIKE_RIDING_ZONE,30,1,Sentencing
+201,Female,Other,More than 45,Married,Student,0,77777,2,1,0,VANDALISM_OTHER,750,3,Sentencing
+202,Male,African-American,More than 45,Divorced,Employed,107438,44444,2,1,3,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+203,Male,Caucasian,35-45,Single,Not looking,0,33333,3,0,2,LEAVE_BIKE_DROPOFF_ZONE,45,3,Sentencing
+204,Male,Caucasian,35-45,Divorced,Student,0,44444,1,10,1,BIKE_STOLEN,2400,4,Sentencing
+205,Female,Other,Less than 25,Single,Unemployed,0,55555,2,1,3,LEAVE_BIKE_DROPOFF_ZONE,45,3,Sentencing
+206,Female,Other,25-35,Married,Not looking,0,66666,2,1,0,VANDALISM_LOCK_BROKEN,100,1,Sentencing
+207,Female,Other,More than 45,Single,Part-time employed,19599,88888,0,1,0,VANDALISM_LOCK_BROKEN,300,3,Sentencing
+208,Female,African-American,Less than 25,Married,Student,0,22222,0,1,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+209,Female,Caucasian,Less than 25,Married,Student,0,44444,1,10,1,BIKE_STOLEN,2400,4,Sentencing
+210,Male,Hispanic,Less than 25,Single,Not looking,0,44444,2,2,2,BIKE_STOLEN,1200,2,Sentencing
+211,Male,Asian,25-35,Single,Student,0,33333,0,2,0,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+212,Male,African-American,25-35,Married,Not looking,0,11111,2,0,0,VANDALISM_LOCK_BROKEN,200,2,Sentencing
+213,Male,African-American,Less than 25,Divorced,Student,0,22222,3,2,0,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+214,Female,Hispanic,More than 45,Married,Not looking,0,44444,2,2,0,VANDALISM_LOCK_BROKEN,400,4,Sentencing
+215,Male,Native American,35-45,Married,Unemployed,0,44444,3,2,1,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+216,Female,Caucasian,Less than 25,Single,Student,0,44444,0,3,1,LEAVE_BIKE_RIDING_ZONE,90,3,Sentencing
+217,Male,Hispanic,More than 45,Divorced,Part-time employed,25933,66666,3,3,0,LEAVE_BIKE_DROPOFF_ZONE,60,4,Sentencing
+218,Male,Asian,25-35,Single,Employed,74241,55555,0,2,2,LEAVE_BIKE_DROPOFF_ZONE,15,1,Sentencing
+219,Female,Hispanic,Less than 25,Married,Employed,30910,77777,1,3,0,BIKE_STOLEN,2400,4,Sentencing
+220,Female,African-American,35-45,Married,Employed,43996,44444,0,1,1,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+221,Male,African-American,More than 45,Single,Part-time employed,20013,33333,1,0,0,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+222,Male,Caucasian,More than 45,Married,Unemployed,0,22222,0,1,3,LEAVE_BIKE_RIDING_ZONE,120,4,Sentencing
+223,Male,Asian,25-35,Divorced,Employed,37618,55555,1,0,2,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+224,Female,Asian,25-35,Married,Not looking,0,22222,3,3,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+225,Female,African-American,35-45,Single,Employed,72543,44444,3,2,1,VANDALISM_LOCK_BROKEN,200,2,Sentencing
+226,Female,Caucasian,35-45,Married,Student,0,44444,3,0,0,LEAVE_BIKE_DROPOFF_ZONE,60,4,Sentencing
+227,Female,Asian,Less than 25,Single,Student,0,33333,2,0,0,LEAVE_BIKE_RIDING_ZONE,60,2,Sentencing
+228,Male,Hispanic,25-35,Single,Employed,74907,77777,2,0,1,VANDALISM_OTHER,250,1,Sentencing
+229,Male,Asian,25-35,Married,Not looking,0,22222,1,1,0,VANDALISM_LOCK_BROKEN,100,1,Sentencing
+230,Male,Asian,35-45,Divorced,Part-time employed,15139,44444,3,2,3,VANDALISM_LOCK_BROKEN,200,2,Sentencing
+231,Male,Asian,Less than 25,Single,Employed,98395,55555,3,2,0,BIKE_STOLEN,1200,2,Sentencing
+232,Male,Native American,35-45,Married,Employed,86958,88888,3,0,3,BIKE_STOLEN,600,1,Sentencing
+233,Female,Caucasian,More than 45,Married,Part-time employed,27549,55555,0,0,1,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+234,Female,Hispanic,Less than 25,Divorced,Student,0,55555,0,1,0,BIKE_STOLEN,1800,3,Sentencing
+235,Female,African-American,25-35,Single,Student,0,22222,0,1,3,VANDALISM_OTHER,500,2,Sentencing
+236,Male,Other,35-45,Divorced,Not looking,0,66666,1,1,3,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+237,Female,Native American,More than 45,Married,Student,0,66666,1,1,2,LEAVE_BIKE_RIDING_ZONE,60,2,Sentencing
+238,Male,Hispanic,35-45,Single,Not looking,0,44444,2,10,2,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+239,Female,Asian,35-45,Divorced,Unemployed,0,11111,2,1,0,VANDALISM_OTHER,1250,5,Sentencing
+240,Female,Other,35-45,Single,Not looking,0,66666,1,0,0,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+241,Male,Caucasian,25-35,Married,Not looking,0,33333,3,10,0,VANDALISM_LOCK_BROKEN,100,1,Sentencing
+242,Female,Caucasian,25-35,Married,Not looking,0,33333,3,3,0,VANDALISM_OTHER,250,1,Sentencing
+243,Male,African-American,35-45,Divorced,Not looking,0,11111,3,0,0,BIKE_STOLEN,1200,2,Sentencing
+244,Female,Caucasian,25-35,Married,Part-time employed,27889,55555,0,0,1,BIKE_STOLEN,1800,3,Sentencing
+245,Male,Hispanic,35-45,Single,Not looking,0,44444,2,2,0,VANDALISM_LOCK_BROKEN,200,2,Sentencing
+246,Male,Asian,35-45,Divorced,Employed,45210,55555,0,3,0,VANDALISM_LOCK_BROKEN,400,4,Sentencing
+247,Female,Caucasian,35-45,Divorced,Student,0,44444,0,10,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+248,Male,Hispanic,25-35,Single,Student,0,55555,3,2,0,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+249,Male,Asian,More than 45,Divorced,Not looking,0,22222,0,0,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+250,Female,African-American,More than 45,Married,Part-time employed,29446,33333,0,3,1,VANDALISM_OTHER,1000,4,Sentencing
+251,Male,Hispanic,Less than 25,Married,Part-time employed,17224,66666,1,3,1,VANDALISM_LOCK_BROKEN,500,5,Sentencing
+252,Male,African-American,25-35,Single,Student,0,22222,2,10,1,VANDALISM_LOCK_BROKEN,100,1,Sentencing
+253,Male,African-American,25-35,Divorced,Student,0,22222,3,2,3,LEAVE_BIKE_RIDING_ZONE,60,2,Sentencing
+254,Female,Asian,More than 45,Married,Part-time employed,16042,44444,2,3,0,LEAVE_BIKE_RIDING_ZONE,120,4,Sentencing
+255,Male,Caucasian,35-45,Single,Not looking,0,33333,1,0,2,BIKE_STOLEN,1200,2,Sentencing
+256,Female,African-American,Less than 25,Single,Student,0,22222,1,0,0,BIKE_STOLEN,2400,4,Sentencing
+257,Male,African-American,More than 45,Married,Unemployed,0,0,0,1,0,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+258,Male,Asian,35-45,Single,Not looking,0,22222,3,3,1,LEAVE_BIKE_RIDING_ZONE,90,3,Sentencing
+259,Male,Other,25-35,Single,Part-time employed,21565,88888,1,0,0,BIKE_STOLEN,1200,2,Sentencing
+260,Male,Other,More than 45,Married,Not looking,0,66666,0,3,2,LEAVE_BIKE_DROPOFF_ZONE,15,1,Sentencing
+261,Female,Native American,More than 45,Divorced,Unemployed,0,44444,3,0,0,BIKE_STOLEN,600,1,Sentencing
+262,Female,Other,More than 45,Married,Unemployed,0,55555,3,10,3,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+263,Female,Other,25-35,Divorced,Student,0,77777,2,0,0,LEAVE_BIKE_DROPOFF_ZONE,15,1,Sentencing
+264,Female,African-American,35-45,Married,Unemployed,0,0,3,1,0,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+265,Male,Caucasian,More than 45,Married,Unemployed,0,22222,0,0,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+266,Male,Asian,Less than 25,Divorced,Not looking,0,22222,1,0,1,VANDALISM_LOCK_BROKEN,200,2,Sentencing
+267,Female,Asian,25-35,Married,Employed,90362,55555,0,1,0,VANDALISM_LOCK_BROKEN,100,1,Sentencing
+268,Female,Asian,Less than 25,Divorced,Student,0,33333,2,1,2,BIKE_STOLEN,1200,2,Sentencing
+269,Female,African-American,Less than 25,Single,Not looking,0,11111,0,0,1,LEAVE_BIKE_RIDING_ZONE,60,2,Sentencing
+270,Female,Hispanic,Less than 25,Single,Employed,34584,77777,3,3,2,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+271,Female,African-American,25-35,Divorced,Unemployed,0,0,2,0,0,LEAVE_BIKE_RIDING_ZONE,120,4,Sentencing
+272,Female,Native American,Less than 25,Single,Not looking,0,55555,0,10,1,BIKE_STOLEN,2400,4,Sentencing
+273,Female,Native American,25-35,Single,Student,0,66666,2,0,0,LEAVE_BIKE_DROPOFF_ZONE,45,3,Sentencing
+274,Male,Hispanic,More than 45,Single,Unemployed,0,33333,3,1,0,VANDALISM_LOCK_BROKEN,300,3,Sentencing
+275,Female,Hispanic,25-35,Married,Unemployed,0,33333,1,1,1,LEAVE_BIKE_RIDING_ZONE,30,1,Sentencing
+276,Male,Caucasian,Less than 25,Single,Student,0,44444,2,2,0,VANDALISM_LOCK_BROKEN,100,1,Sentencing
+277,Female,Asian,35-45,Divorced,Student,0,33333,3,1,1,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+278,Male,Other,More than 45,Single,Unemployed,0,55555,3,0,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+279,Male,Native American,35-45,Divorced,Unemployed,0,44444,1,0,3,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+280,Female,Native American,35-45,Single,Student,0,66666,1,0,1,LEAVE_BIKE_DROPOFF_ZONE,75,5,Sentencing
+281,Male,African-American,More than 45,Divorced,Part-time employed,26218,33333,0,1,0,VANDALISM_OTHER,1250,5,Sentencing
+282,Female,Caucasian,More than 45,Divorced,Unemployed,0,22222,1,1,1,BIKE_STOLEN,600,1,Sentencing
+283,Female,Other,35-45,Single,Employed,109010,99999,2,1,2,BIKE_STOLEN,600,1,Sentencing
+284,Male,Hispanic,35-45,Single,Unemployed,0,33333,3,1,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+285,Male,Other,More than 45,Single,Unemployed,0,55555,1,1,0,BIKE_STOLEN,1800,3,Sentencing
+286,Male,Caucasian,25-35,Single,Employed,64937,66666,3,10,3,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+287,Female,Other,Less than 25,Married,Student,0,77777,1,1,1,LEAVE_BIKE_DROPOFF_ZONE,15,1,Sentencing
+288,Female,Hispanic,35-45,Married,Part-time employed,25876,66666,2,1,1,LEAVE_BIKE_DROPOFF_ZONE,45,3,Sentencing
+289,Female,Native American,25-35,Divorced,Part-time employed,29895,77777,1,1,1,LEAVE_BIKE_RIDING_ZONE,30,1,Sentencing
+290,Male,Caucasian,35-45,Single,Student,0,44444,3,0,0,BIKE_STOLEN,1200,2,Sentencing
+291,Male,Native American,Less than 25,Divorced,Employed,69330,88888,2,2,0,BIKE_STOLEN,1200,2,Sentencing
+292,Female,Asian,35-45,Divorced,Not looking,0,22222,1,1,0,VANDALISM_OTHER,500,2,Sentencing
+293,Male,Asian,Less than 25,Married,Employed,32040,55555,0,2,0,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+294,Female,African-American,25-35,Married,Employed,71240,44444,0,2,0,LEAVE_BIKE_RIDING_ZONE,150,5,Sentencing
+295,Female,Hispanic,25-35,Married,Employed,68378,77777,3,0,0,VANDALISM_OTHER,250,1,Sentencing
+296,Male,Asian,Less than 25,Single,Unemployed,0,11111,3,1,1,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+297,Female,Caucasian,25-35,Single,Part-time employed,27396,55555,0,0,2,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+298,Female,Asian,25-35,Single,Not looking,0,22222,2,0,0,VANDALISM_LOCK_BROKEN,100,1,Sentencing
+299,Female,Hispanic,25-35,Married,Not looking,0,44444,1,1,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+300,Female,Caucasian,Less than 25,Married,Student,0,44444,2,0,2,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+301,Female,Hispanic,35-45,Single,Student,0,55555,1,0,1,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+302,Female,Caucasian,Less than 25,Divorced,Student,0,44444,1,1,0,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+303,Female,Native American,35-45,Single,Employed,71860,88888,1,2,0,LEAVE_BIKE_RIDING_ZONE,60,2,Sentencing
+304,Male,African-American,25-35,Single,Part-time employed,22226,33333,3,2,2,LEAVE_BIKE_RIDING_ZONE,30,1,Sentencing
+305,Male,Native American,35-45,Single,Not looking,0,55555,1,0,0,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+306,Male,Other,Less than 25,Married,Student,0,77777,3,0,0,VANDALISM_OTHER,250,1,Sentencing
+307,Female,Caucasian,25-35,Single,Not looking,0,33333,1,3,1,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+308,Female,African-American,25-35,Single,Unemployed,0,0,0,0,0,VANDALISM_LOCK_BROKEN,200,2,Sentencing
+309,Female,Asian,Less than 25,Divorced,Employed,82474,55555,1,2,0,VANDALISM_LOCK_BROKEN,300,3,Sentencing
+310,Female,Asian,More than 45,Married,Part-time employed,19298,44444,0,10,0,LEAVE_BIKE_RIDING_ZONE,120,4,Sentencing
+311,Male,Native American,More than 45,Single,Employed,34734,88888,2,2,1,VANDALISM_OTHER,1250,5,Sentencing
+312,Male,Hispanic,35-45,Divorced,Unemployed,0,33333,0,2,0,LEAVE_BIKE_DROPOFF_ZONE,45,3,Sentencing
+313,Male,Asian,Less than 25,Divorced,Unemployed,0,11111,2,0,0,BIKE_STOLEN,600,1,Sentencing
+314,Female,Asian,More than 45,Single,Not looking,0,22222,3,0,0,BIKE_STOLEN,600,1,Sentencing
+315,Female,Other,More than 45,Single,Student,0,77777,2,1,2,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+316,Male,Asian,Less than 25,Divorced,Employed,103678,55555,3,1,1,BIKE_STOLEN,600,1,Sentencing
+317,Male,Native American,35-45,Single,Not looking,0,55555,0,0,0,BIKE_STOLEN,1200,2,Sentencing
+318,Female,African-American,35-45,Divorced,Student,0,22222,1,0,0,BIKE_STOLEN,1800,3,Sentencing
+319,Female,Other,35-45,Single,Student,0,77777,2,0,0,VANDALISM_OTHER,500,2,Sentencing
+320,Female,Native American,35-45,Married,Student,0,66666,1,0,3,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+321,Male,Other,More than 45,Divorced,Part-time employed,22689,88888,1,1,0,BIKE_STOLEN,1200,2,Sentencing
+322,Male,Hispanic,Less than 25,Single,Unemployed,0,33333,1,1,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+323,Female,Asian,Less than 25,Divorced,Student,0,33333,1,0,2,BIKE_STOLEN,600,1,Sentencing
+324,Female,Hispanic,Less than 25,Divorced,Unemployed,0,33333,2,1,0,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+325,Male,Caucasian,35-45,Divorced,Unemployed,0,22222,0,0,0,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+326,Male,Asian,Less than 25,Married,Employed,47604,55555,3,10,1,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+327,Male,Hispanic,25-35,Married,Employed,43736,77777,2,2,0,BIKE_STOLEN,600,1,Sentencing
+328,Male,African-American,More than 45,Single,Employed,62543,44444,3,10,0,LEAVE_BIKE_RIDING_ZONE,60,2,Sentencing
+329,Female,Native American,35-45,Divorced,Not looking,0,55555,3,1,1,BIKE_STOLEN,600,1,Sentencing
+330,Female,Other,35-45,Married,Part-time employed,22276,88888,2,1,2,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+331,Male,Other,25-35,Single,Unemployed,0,55555,0,1,1,LEAVE_BIKE_RIDING_ZONE,120,4,Sentencing
+332,Female,Asian,35-45,Single,Employed,104822,55555,0,1,2,VANDALISM_LOCK_BROKEN,100,1,Sentencing
+333,Female,Hispanic,More than 45,Divorced,Part-time employed,19800,66666,2,1,2,VANDALISM_OTHER,250,1,Sentencing
+334,Female,Other,35-45,Married,Employed,45056,99999,1,1,2,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+335,Male,Hispanic,25-35,Married,Not looking,0,44444,0,0,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+336,Male,Other,More than 45,Divorced,Unemployed,0,55555,1,0,2,LEAVE_BIKE_RIDING_ZONE,150,5,Sentencing
+337,Female,Native American,25-35,Divorced,Part-time employed,23053,77777,3,1,0,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+338,Female,Other,Less than 25,Married,Employed,83040,99999,0,10,1,BIKE_STOLEN,1800,3,Sentencing
+339,Female,Native American,Less than 25,Single,Employed,55240,88888,0,0,3,LEAVE_BIKE_RIDING_ZONE,30,1,Sentencing
+340,Male,Native American,More than 45,Married,Employed,81040,88888,1,2,0,LEAVE_BIKE_RIDING_ZONE,60,2,Sentencing
+341,Male,Caucasian,More than 45,Divorced,Student,0,44444,0,1,3,LEAVE_BIKE_RIDING_ZONE,90,3,Sentencing
+342,Female,Native American,35-45,Divorced,Part-time employed,25961,77777,2,2,1,BIKE_STOLEN,600,1,Sentencing
+343,Female,African-American,25-35,Married,Not looking,0,11111,0,0,3,LEAVE_BIKE_DROPOFF_ZONE,30,2,Sentencing
+344,Male,Native American,35-45,Divorced,Student,0,66666,1,0,0,LEAVE_BIKE_RIDING_ZONE,90,3,Sentencing
+345,Female,Other,35-45,Single,Unemployed,0,55555,1,0,0,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+346,Female,Other,25-35,Divorced,Employed,100115,99999,1,0,0,LEAVE_BIKE_RIDING_ZONE,30,1,Sentencing
+347,Female,African-American,More than 45,Married,Employed,52336,44444,1,1,2,VANDALISM_LOCK_BROKEN,400,4,Sentencing
+348,Female,Native American,35-45,Single,Part-time employed,19045,77777,3,1,1,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+349,Female,African-American,Less than 25,Divorced,Employed,95855,44444,3,2,0,BIKE_STOLEN,600,1,Sentencing
+350,Female,Other,Less than 25,Divorced,Not looking,0,66666,0,0,3,LEAVE_BIKE_RIDING_ZONE,60,2,Sentencing
+351,Male,Asian,35-45,Divorced,Student,0,33333,0,1,0,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+352,Female,Native American,35-45,Single,Not looking,0,55555,2,2,0,VANDALISM_LOCK_BROKEN,100,1,Sentencing
+353,Female,African-American,Less than 25,Divorced,Employed,98577,44444,2,1,1,VANDALISM_LOCK_BROKEN,100,1,Sentencing
+354,Female,Native American,Less than 25,Divorced,Part-time employed,15151,77777,1,0,0,BIKE_STOLEN,3000,5,Sentencing
+355,Male,Caucasian,35-45,Divorced,Student,0,44444,0,0,3,LEAVE_BIKE_RIDING_ZONE,120,4,Sentencing
+356,Male,Native American,25-35,Divorced,Employed,62747,88888,0,0,3,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+357,Female,Hispanic,Less than 25,Single,Part-time employed,24483,66666,1,2,2,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+358,Male,Other,Less than 25,Divorced,Unemployed,0,55555,3,1,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+359,Female,Asian,Less than 25,Single,Student,0,33333,0,0,0,BIKE_STOLEN,600,1,Sentencing
+360,Female,Other,More than 45,Single,Part-time employed,24213,88888,3,1,2,LEAVE_BIKE_RIDING_ZONE,60,2,Sentencing
+361,Male,Native American,35-45,Divorced,Not looking,0,55555,3,0,3,LEAVE_BIKE_RIDING_ZONE,30,1,Sentencing
+362,Female,Hispanic,Less than 25,Single,Unemployed,0,33333,1,0,0,VANDALISM_LOCK_BROKEN,500,5,Sentencing
+363,Male,Asian,Less than 25,Married,Part-time employed,17443,44444,0,0,0,BIKE_STOLEN,3000,5,Sentencing
+364,Male,Native American,35-45,Divorced,Unemployed,0,44444,2,0,3,LEAVE_BIKE_RIDING_ZONE,90,3,Sentencing
+365,Male,Asian,25-35,Single,Unemployed,0,11111,3,1,3,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+366,Male,African-American,35-45,Divorced,Employed,97751,44444,3,0,0,BIKE_STOLEN,2400,4,Sentencing
+367,Female,Native American,35-45,Single,Part-time employed,24358,77777,0,3,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+368,Female,Hispanic,More than 45,Single,Student,0,55555,3,3,0,LEAVE_BIKE_DROPOFF_ZONE,30,2,Sentencing
+369,Male,Native American,35-45,Single,Part-time employed,23738,77777,1,0,0,VANDALISM_OTHER,250,1,Sentencing
+370,Male,Other,More than 45,Married,Not looking,0,66666,2,3,1,LEAVE_BIKE_RIDING_ZONE,60,2,Sentencing
+371,Male,Caucasian,25-35,Single,Part-time employed,18331,55555,0,1,0,VANDALISM_OTHER,1250,5,Sentencing
+372,Male,Caucasian,More than 45,Married,Part-time employed,25617,55555,2,3,2,VANDALISM_OTHER,1000,4,Sentencing
+373,Male,Caucasian,More than 45,Married,Unemployed,0,22222,2,1,2,BIKE_STOLEN,2400,4,Sentencing
+374,Female,Other,25-35,Married,Not looking,0,66666,2,3,1,BIKE_STOLEN,1800,3,Sentencing
+375,Male,Caucasian,35-45,Married,Student,0,44444,3,0,1,VANDALISM_OTHER,250,1,Sentencing
+376,Female,Caucasian,25-35,Divorced,Unemployed,0,22222,0,0,3,VANDALISM_OTHER,1000,4,Sentencing
+377,Male,Hispanic,25-35,Single,Part-time employed,27768,66666,2,0,0,LEAVE_BIKE_DROPOFF_ZONE,30,2,Sentencing
+378,Female,Native American,25-35,Married,Unemployed,0,44444,3,0,1,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+379,Female,Asian,More than 45,Single,Student,0,33333,2,1,0,VANDALISM_LOCK_BROKEN,100,1,Sentencing
+380,Female,Native American,35-45,Divorced,Unemployed,0,44444,1,0,2,VANDALISM_OTHER,250,1,Sentencing
+381,Female,Other,25-35,Married,Employed,52297,99999,3,1,2,VANDALISM_LOCK_BROKEN,200,2,Sentencing
+382,Female,Hispanic,25-35,Married,Part-time employed,18082,66666,1,1,1,BIKE_STOLEN,600,1,Sentencing
+383,Female,Caucasian,35-45,Married,Not looking,0,33333,2,1,0,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+384,Male,Native American,More than 45,Divorced,Not looking,0,55555,0,1,1,LEAVE_BIKE_DROPOFF_ZONE,30,2,Sentencing
+385,Male,Asian,35-45,Divorced,Student,0,33333,0,0,0,LEAVE_BIKE_RIDING_ZONE,60,2,Sentencing
+386,Male,African-American,More than 45,Married,Student,0,22222,0,0,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+387,Female,Native American,35-45,Single,Unemployed,0,44444,3,0,0,VANDALISM_OTHER,500,2,Sentencing
+388,Male,Other,More than 45,Divorced,Part-time employed,19682,88888,3,1,0,LEAVE_BIKE_DROPOFF_ZONE,15,1,Sentencing
+389,Male,Native American,Less than 25,Divorced,Part-time employed,28193,77777,3,2,2,VANDALISM_OTHER,750,3,Sentencing
+390,Male,Native American,More than 45,Divorced,Not looking,0,55555,0,0,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+391,Male,Caucasian,25-35,Married,Student,0,44444,1,0,0,VANDALISM_OTHER,1000,4,Sentencing
+392,Male,African-American,25-35,Married,Employed,104076,44444,2,1,0,VANDALISM_LOCK_BROKEN,300,3,Sentencing
+393,Male,Other,25-35,Single,Not looking,0,66666,0,0,0,LEAVE_BIKE_DROPOFF_ZONE,30,2,Sentencing
+394,Male,Caucasian,25-35,Divorced,Employed,87729,66666,2,1,2,LEAVE_BIKE_DROPOFF_ZONE,60,4,Sentencing
+395,Female,African-American,More than 45,Married,Student,0,22222,3,3,0,LEAVE_BIKE_RIDING_ZONE,60,2,Sentencing
+396,Female,Hispanic,More than 45,Married,Not looking,0,44444,3,0,0,VANDALISM_LOCK_BROKEN,300,3,Sentencing
+397,Male,Caucasian,35-45,Divorced,Not looking,0,33333,3,1,1,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+398,Female,Native American,25-35,Married,Employed,76502,88888,0,0,0,LEAVE_BIKE_RIDING_ZONE,30,1,Sentencing
+399,Female,Asian,Less than 25,Single,Student,0,33333,3,1,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+400,Male,Asian,More than 45,Divorced,Unemployed,0,11111,3,0,0,LEAVE_BIKE_RIDING_ZONE,30,1,Sentencing
+401,Female,Other,Less than 25,Married,Part-time employed,19811,88888,3,0,0,LEAVE_BIKE_DROPOFF_ZONE,45,3,Sentencing
+402,Male,Asian,Less than 25,Single,Not looking,0,22222,1,1,3,LEAVE_BIKE_DROPOFF_ZONE,15,1,Sentencing
+403,Male,African-American,More than 45,Divorced,Employed,65655,44444,0,2,0,BIKE_STOLEN,600,1,Sentencing
+404,Female,Other,25-35,Married,Employed,76366,99999,3,0,1,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+405,Female,Native American,25-35,Single,Not looking,0,55555,2,1,2,VANDALISM_LOCK_BROKEN,400,4,Sentencing
+406,Female,Caucasian,Less than 25,Single,Part-time employed,16575,55555,2,10,1,VANDALISM_OTHER,1000,4,Sentencing
+407,Male,African-American,35-45,Married,Not looking,0,11111,3,0,2,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+408,Female,Hispanic,35-45,Married,Not looking,0,44444,1,0,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+409,Female,Other,Less than 25,Single,Unemployed,0,55555,2,0,2,LEAVE_BIKE_DROPOFF_ZONE,30,2,Sentencing
+410,Male,Hispanic,25-35,Married,Student,0,55555,2,1,0,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+411,Male,Asian,25-35,Divorced,Unemployed,0,11111,3,0,0,VANDALISM_LOCK_BROKEN,100,1,Sentencing
+412,Male,Native American,More than 45,Married,Unemployed,0,44444,1,0,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+413,Female,Caucasian,25-35,Divorced,Employed,65337,66666,1,0,0,LEAVE_BIKE_DROPOFF_ZONE,75,5,Sentencing
+414,Male,African-American,25-35,Married,Student,0,22222,1,10,3,BIKE_STOLEN,600,1,Sentencing
+415,Female,African-American,Less than 25,Married,Not looking,0,11111,1,0,3,LEAVE_BIKE_DROPOFF_ZONE,45,3,Sentencing
+416,Female,Other,Less than 25,Divorced,Employed,41047,99999,1,1,0,BIKE_STOLEN,600,1,Sentencing
+417,Male,African-American,Less than 25,Married,Employed,56712,44444,3,1,3,LEAVE_BIKE_DROPOFF_ZONE,15,1,Sentencing
+418,Female,Other,35-45,Single,Unemployed,0,55555,0,0,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+419,Female,African-American,35-45,Single,Unemployed,0,0,2,0,1,LEAVE_BIKE_DROPOFF_ZONE,60,4,Sentencing
+420,Male,Native American,25-35,Single,Student,0,66666,2,1,0,VANDALISM_OTHER,1250,5,Sentencing
+421,Female,Asian,25-35,Married,Unemployed,0,11111,2,10,1,LEAVE_BIKE_DROPOFF_ZONE,45,3,Sentencing
+422,Male,Hispanic,35-45,Single,Student,0,55555,3,1,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+423,Female,Other,Less than 25,Divorced,Part-time employed,22540,88888,0,0,2,LEAVE_BIKE_RIDING_ZONE,30,1,Sentencing
+424,Male,Hispanic,35-45,Divorced,Part-time employed,27197,66666,0,0,0,LEAVE_BIKE_DROPOFF_ZONE,15,1,Sentencing
+425,Male,African-American,25-35,Divorced,Student,0,22222,2,0,1,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+426,Male,Other,More than 45,Married,Student,0,77777,2,2,2,VANDALISM_LOCK_BROKEN,100,1,Sentencing
+427,Male,Asian,35-45,Married,Part-time employed,17044,44444,3,0,3,LEAVE_BIKE_DROPOFF_ZONE,15,1,Sentencing
+428,Female,African-American,35-45,Single,Unemployed,0,0,2,0,0,VANDALISM_LOCK_BROKEN,200,2,Sentencing
+429,Female,Hispanic,25-35,Divorced,Unemployed,0,33333,3,0,0,LEAVE_BIKE_DROPOFF_ZONE,15,1,Sentencing
+430,Male,Hispanic,More than 45,Married,Unemployed,0,33333,3,1,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+431,Male,Native American,25-35,Divorced,Not looking,0,55555,0,0,2,VANDALISM_OTHER,1250,5,Sentencing
+432,Male,Hispanic,25-35,Married,Part-time employed,18932,66666,3,3,1,LEAVE_BIKE_DROPOFF_ZONE,30,2,Sentencing
+433,Male,Caucasian,Less than 25,Married,Part-time employed,16749,55555,3,1,0,VANDALISM_LOCK_BROKEN,300,3,Sentencing
+434,Male,African-American,More than 45,Single,Part-time employed,17928,33333,0,10,3,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+435,Female,Native American,35-45,Married,Not looking,0,55555,2,1,1,VANDALISM_OTHER,250,1,Sentencing
+436,Male,Other,Less than 25,Divorced,Part-time employed,21927,88888,2,0,0,VANDALISM_OTHER,250,1,Sentencing
+437,Male,Asian,25-35,Single,Part-time employed,23395,44444,1,0,0,VANDALISM_OTHER,500,2,Sentencing
+438,Male,Other,25-35,Single,Student,0,77777,1,1,0,LEAVE_BIKE_DROPOFF_ZONE,30,2,Sentencing
+439,Male,Other,More than 45,Married,Employed,48795,99999,0,0,0,LEAVE_BIKE_RIDING_ZONE,150,5,Sentencing
+440,Female,Native American,More than 45,Divorced,Part-time employed,20769,77777,0,2,3,LEAVE_BIKE_RIDING_ZONE,30,1,Sentencing
+441,Female,African-American,Less than 25,Divorced,Not looking,0,11111,1,1,1,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+442,Male,Hispanic,25-35,Single,Not looking,0,44444,3,0,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+443,Male,African-American,Less than 25,Married,Employed,78129,44444,3,1,2,LEAVE_BIKE_DROPOFF_ZONE,45,3,Sentencing
+444,Male,Asian,35-45,Married,Part-time employed,26263,44444,0,2,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+445,Female,Hispanic,25-35,Divorced,Unemployed,0,33333,0,1,0,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+446,Male,Hispanic,More than 45,Single,Employed,108335,77777,2,10,0,VANDALISM_OTHER,750,3,Sentencing
+447,Male,Hispanic,More than 45,Divorced,Student,0,55555,1,3,1,BIKE_STOLEN,1800,3,Sentencing
+448,Male,Asian,35-45,Divorced,Employed,37917,55555,0,0,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+449,Female,Native American,Less than 25,Married,Unemployed,0,44444,0,1,1,LEAVE_BIKE_RIDING_ZONE,60,2,Sentencing
+450,Male,Hispanic,35-45,Divorced,Part-time employed,22706,66666,3,1,0,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+451,Male,Other,More than 45,Single,Employed,40734,99999,3,0,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+452,Female,Caucasian,35-45,Married,Part-time employed,18182,55555,1,3,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+453,Female,Asian,25-35,Married,Employed,76635,55555,0,0,1,BIKE_STOLEN,1200,2,Sentencing
+454,Female,Other,Less than 25,Divorced,Part-time employed,26122,88888,0,0,0,BIKE_STOLEN,600,1,Sentencing
+455,Male,Native American,25-35,Divorced,Employed,107269,88888,2,1,1,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+456,Male,Caucasian,25-35,Married,Unemployed,0,22222,1,10,2,LEAVE_BIKE_RIDING_ZONE,120,4,Sentencing
+457,Female,Hispanic,35-45,Married,Part-time employed,20025,66666,1,2,2,LEAVE_BIKE_RIDING_ZONE,60,2,Sentencing
+458,Female,Native American,35-45,Divorced,Employed,60020,88888,1,2,2,LEAVE_BIKE_DROPOFF_ZONE,15,1,Sentencing
+459,Female,Native American,Less than 25,Married,Unemployed,0,44444,1,1,0,BIKE_STOLEN,1200,2,Sentencing
+460,Female,Caucasian,25-35,Single,Unemployed,0,22222,1,0,2,LEAVE_BIKE_DROPOFF_ZONE,15,1,Sentencing
+461,Male,Other,Less than 25,Divorced,Student,0,77777,0,0,3,LEAVE_BIKE_DROPOFF_ZONE,30,2,Sentencing
+462,Female,Asian,35-45,Married,Employed,43675,55555,1,0,3,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+463,Male,Native American,25-35,Married,Unemployed,0,44444,2,2,0,VANDALISM_OTHER,250,1,Sentencing
+464,Female,Hispanic,Less than 25,Single,Student,0,55555,0,0,0,VANDALISM_OTHER,250,1,Sentencing
+465,Female,Hispanic,25-35,Married,Not looking,0,44444,2,1,0,BIKE_STOLEN,2400,4,Sentencing
+466,Male,Native American,25-35,Single,Part-time employed,27823,77777,1,10,0,VANDALISM_OTHER,1250,5,Sentencing
+467,Female,Other,35-45,Divorced,Employed,94240,99999,3,10,2,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+468,Female,Caucasian,25-35,Single,Not looking,0,33333,2,10,0,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+469,Female,Other,More than 45,Married,Not looking,0,66666,1,1,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+470,Female,Native American,35-45,Single,Unemployed,0,44444,1,0,0,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+471,Male,Caucasian,35-45,Single,Part-time employed,22149,55555,2,0,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+472,Male,Other,More than 45,Divorced,Part-time employed,23077,88888,0,0,0,VANDALISM_OTHER,250,1,Sentencing
+473,Male,African-American,35-45,Married,Not looking,0,11111,1,1,0,VANDALISM_OTHER,750,3,Sentencing
+474,Female,African-American,Less than 25,Divorced,Unemployed,0,0,0,0,2,VANDALISM_OTHER,750,3,Sentencing
+475,Female,Native American,Less than 25,Married,Employed,55159,88888,3,1,0,VANDALISM_LOCK_BROKEN,100,1,Sentencing
+476,Female,Native American,35-45,Single,Unemployed,0,44444,2,3,1,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+477,Male,Caucasian,More than 45,Married,Unemployed,0,22222,2,10,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+478,Male,Native American,25-35,Divorced,Unemployed,0,44444,2,1,0,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+479,Male,African-American,More than 45,Single,Unemployed,0,0,3,0,3,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+480,Female,Hispanic,25-35,Divorced,Student,0,55555,0,10,3,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+481,Female,Native American,25-35,Divorced,Student,0,66666,0,3,1,VANDALISM_OTHER,500,2,Sentencing
+482,Male,Caucasian,Less than 25,Single,Not looking,0,33333,1,0,0,LEAVE_BIKE_DROPOFF_ZONE,15,1,Sentencing
+483,Male,African-American,35-45,Divorced,Employed,90756,44444,0,2,3,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+484,Female,Caucasian,35-45,Single,Unemployed,0,22222,0,1,0,VANDALISM_OTHER,250,1,Sentencing
+485,Male,Caucasian,25-35,Married,Student,0,44444,1,3,2,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+486,Male,Hispanic,35-45,Divorced,Not looking,0,44444,1,2,0,VANDALISM_OTHER,750,3,Sentencing
+487,Male,Native American,35-45,Married,Unemployed,0,44444,0,0,2,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+488,Female,Native American,25-35,Divorced,Part-time employed,15716,77777,1,1,1,BIKE_STOLEN,600,1,Sentencing
+489,Male,Asian,More than 45,Single,Employed,50490,55555,1,1,0,LEAVE_BIKE_DROPOFF_ZONE,30,2,Sentencing
+490,Male,Hispanic,35-45,Divorced,Not looking,0,44444,3,0,1,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+491,Male,Caucasian,More than 45,Divorced,Unemployed,0,22222,1,0,1,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+492,Female,Other,More than 45,Married,Not looking,0,66666,2,0,1,HITTING_BIKER_WHILE_DRIVING,NA,1,Pre-trial detention?
+493,Male,Native American,35-45,Divorced,Student,0,66666,3,1,1,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+494,Female,Asian,35-45,Married,Unemployed,0,11111,3,0,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+495,Male,Hispanic,25-35,Divorced,Part-time employed,28999,66666,2,2,0,VANDALISM_LOCK_BROKEN,100,1,Sentencing
+496,Male,Native American,More than 45,Married,Part-time employed,23116,77777,0,1,0,LEAVE_BIKE_RIDING_ZONE,60,2,Sentencing
+497,Female,African-American,25-35,Married,Student,0,22222,1,1,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?
+498,Female,Other,Less than 25,Married,Student,0,77777,3,10,0,VANDALISM_OTHER,250,1,Sentencing
+499,Female,Other,More than 45,Married,Unemployed,0,55555,3,0,2,LEAVE_BIKE_DROPOFF_ZONE,45,3,Sentencing
