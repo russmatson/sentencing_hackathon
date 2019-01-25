@@ -1,0 +1,18 @@
+
+
+"this is fair" -> spitball fairness
+
+higher sentence -> less likely to commit crime again
+
+signal use for general deterence
+
+more harm/more crime -> harsher sentence
+
+various variables -> time in prison (short but harsh punishment?)
+
+shapes/distributions of punishments?
+
+bring up race in algorithm? or leave it out?
+
+one suggestion: leave it out of first algorithm, then bring it up in second algorithm. If you come to conclusion that it is somewhat racist, then maybe society is biased ?
+
