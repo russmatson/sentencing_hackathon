@@ -1,5 +1,7 @@
 
-
+#I am trying to figure out what these things are.  Some of them are variables?  Some are functions?  I will look at the 
+3-4 day python bootcamp sylabus and the 12 week bootcamp sylybus to break this down into chunks and see
+what I am actually learning.  
 
 x = 1 
 
