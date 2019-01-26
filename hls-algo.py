@@ -34,7 +34,7 @@ data = []
 # for every row, read it in
 
 
-person = "0,Female,Other,25-35,Divorced,Unemployed,0,55555,3,0,0,HITTING_BIKER_OPENING_DOOR,NA,1,Pre-trial detention?".split(",")
+person = "4,Male,Asian,More than 45,Single,Unemployed,0,11111,0,0,2,LEAVE_BIKE_DROPOFF_ZONE,15,1,Sentencing".split(",")
 
 # tidy 
 
@@ -52,9 +52,42 @@ def sentence_leave_bike_dropoff_zone( person ):
 	# number of times offended
 	# total damage done
 	# prior record
-	# 
+	# income
 
-	print "Sentenced to max fine"
+	income = person[6]
+	prior = person[10]
+	damage = person[12]
+	num_times = person[13]
+
+	
+	fine = 0 # just throwing it out there
+
+	# scale the fine to income
+	if (income > 30,000):
+		fine += 200
+
+	# scale the fine to prior crimes
+	if (prior > 2):
+		fine += 100
+
+	# scale the fine to total damage
+	if ( damage > 100) :
+		fine +=100
+
+	# scale the fine to the repeated times
+	if (num_times > 1 ):
+		fine += 100
+
+
+	if (fine > 500):
+		fine = 500
+
+	# likely to have some minimum fine (deterrence, cost of replacement, )
+	if (fine < 100):
+		fine = 100 
+
+	print "You owe a 500 dollar fine."
+
 
 def sentence_leave_bike_riding_zone( person ):
 	print "LEAVE_BIKE_DROPOFF_ZONE"
