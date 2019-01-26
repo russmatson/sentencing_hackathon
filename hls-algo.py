@@ -4,7 +4,7 @@
 # the purposes of this code is to analyze and sentence people given 
 # in the raw_data.csv file.
 
-
+# injustice is an outstanding idea! RJM wants to create as much as possible.
 
 # these attributes taken from given file, create_data.py
 
