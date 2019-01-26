@@ -24,54 +24,6 @@ FILE_NAME = "raw_data.csv"
 
 
 
-# import 
-
-raw_data = []
-
-with open(FILE_NAME, "r") as fp:
-
-	for line in fp:
-
-		raw_data.append(line)
-
-	fp.close
-
-
-# tidy 
-
-data = []
-
-for line in raw_data[1:]:
-
-	person = line.strip().split(",")
-
-	# convert numerical data to integers
-	person[0] = int(person[0]) # id
-
-	person[6] = int(person[6]) # salary
-	person[7] = int(person[7]) # zipcode
-	person[8] = int(person[8]) # number_of_kids
-	person[9] = int(person[9]) # volunteer_hours_per_week
-	person[10]= int(person[10]) # prior_crimes
-
-
-	if( not person[12] == "NA" ):
-		person[12] = int(person[12]) # amount_of_damage
-	else:
-		assert(person[11] == "HITTING_BIKER_OPENING_DOOR" or 
-			person[11] == "HITTING_BIKER_WHILE_DRIVING" )
-
-	person[13]= int(person[13]) # number_of_times
-
-	data.append(person)
-
-for person in data:
-	analyze_person( person ) 
-
-# model 
-
-# for person in data:
-	# analyze
 
 # performs the sentencing on the person in question
 def sentence_leave_bike_dropoff_zone( person ):
@@ -136,6 +88,11 @@ def decide_detention_open_door( person ):
 def decide_detention_driving( person ):
 	print( "Sentenced to " )
 
+
+
+
+
+
 def analyze_person( person ):
 
 	crime = person[11]
@@ -165,7 +122,55 @@ def analyze_person( person ):
 
 
 
-analyze_person( person )
+
+# import 
+
+raw_data = []
+
+with open(FILE_NAME, "r") as fp:
+
+	for line in fp:
+
+		raw_data.append(line)
+
+	fp.close
+
+
+# tidy 
+
+data = []
+
+for line in raw_data[1:]:
+
+	person = line.strip().split(",")
+
+	# convert numerical data to integers
+	person[0] = int(person[0]) # id
+
+	person[6] = int(person[6]) # salary
+	person[7] = int(person[7]) # zipcode
+	person[8] = int(person[8]) # number_of_kids
+	person[9] = int(person[9]) # volunteer_hours_per_week
+	person[10]= int(person[10]) # prior_crimes
+
+
+	if( not person[12] == "NA" ):
+		person[12] = int(person[12]) # amount_of_damage
+	else:
+		assert(person[11] == "HITTING_BIKER_OPENING_DOOR" or 
+			person[11] == "HITTING_BIKER_WHILE_DRIVING" )
+
+	person[13]= int(person[13]) # number_of_times
+
+	data.append(person)
+
+for person in data:
+	analyze_person( person ) 
+
+# model 
+
+
+
 
 
 
