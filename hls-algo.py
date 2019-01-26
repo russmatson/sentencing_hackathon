@@ -43,7 +43,7 @@ data = []
 
 for line in raw_data[1:]:
 
-	person = line.strip().split(",")
+	person = line.strip().split(",") #expression
 
 	# convert numerical data to integers
 	person[0] = int(person[0]) # id
@@ -66,7 +66,7 @@ for line in raw_data[1:]:
 	data.append(person)
 
 for person in data:
-	analyze_person( person ) 
+	analyze_person( person ) #function call
 
 # model 
 
@@ -127,7 +127,7 @@ def sentence_vandalism_other( person ):
 	print( "LEAVE_BIKE_DROPOFF_ZONE" )
 	print( "Sentenced to " )
 
-def sentence_bike_stolen( person ):
+def sentence_bike_stolen( person ): #def stands for definition, function definition
 	print( "Sentenced to " )
 
 def decide_detention_open_door( person ):
@@ -140,10 +140,10 @@ def analyze_person( person ):
 
 	crime = person[11]
 	
-	if (crime == "LEAVE_BIKE_DROPOFF_ZONE") : 
+	if (crime == "LEAVE_BIKE_DROPOFF_ZONE") : # this is a conditional
  		sentence_leave_bike_dropoff_zone( person )
 		
-	if (crime == "LEAVE_BIKE_RIDING_ZONE") :
+	if (crime == "LEAVE_BIKE_RIDING_ZONE") : #coding bat.com is another thing like coursera or code acadamy.  bite sized coding excercizes.
 		sentence_leave_bike_riding_zone( person )
 	
 	if (crime == "VANDALISM_LOCK_BROKEN") :
