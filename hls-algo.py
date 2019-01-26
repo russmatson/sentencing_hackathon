@@ -121,8 +121,6 @@ def analyze_person( person ):
 
 
 
-
-
 # import 
 
 raw_data = []
