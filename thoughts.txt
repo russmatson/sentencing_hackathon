@@ -16,3 +16,29 @@ bring up race in algorithm? or leave it out?
 
 one suggestion: leave it out of first algorithm, then bring it up in second algorithm. If you come to conclusion that it is somewhat racist, then maybe society is biased ?
 
+
+we can run the data 100000000 times and find out exactly where the people who associate with each race and gender and class are coming from
+
+
+What are you trying to measure? What is the goal?
+
+We know that some people will be sentenced too harshly. (good for deterrence?)
+
+tradeoff between price of sentencing and deterrence and other uses for that money?
+
+
+
+Analyze population to get the correlations between protected characteristics and other data in the set?
+
+
+
+Look at crimes first or look at other variables first? 
+
+
+
+MVP -> minimum viable product 
+
+
+
+
+
